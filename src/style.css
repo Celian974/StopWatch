@@ -18,6 +18,11 @@
     font-size: 55px;
 }
 
+#time span {
+    display: inline-block;
+    width: 4vw;
+}
+
 #buttons {
     display: flex;
     gap: 40px;
