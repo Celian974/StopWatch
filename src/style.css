@@ -16,11 +16,31 @@
     text-align: center;
     font-family: "Special Gothic Expanded One", sans-serif;
     font-size: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    gap: 8px;
 }
 
 #time span {
     display: inline-block;
     width: 4vw;
+}
+
+#sec {
+    margin-right: -5px;
+}
+
+.dot {
+    width: auto;
+    padding: 0 4px;
+}
+
+#count {
+    width: 3vw;
+    font-size: 85%;
+    margin-left: -25px;
 }
 
 #buttons {
