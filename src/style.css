@@ -1,0 +1,33 @@
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#title h1 {
+    text-align: center;
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-size: 75px;
+    margin-top: 80px;
+}
+
+#time {
+    text-align: center;
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-size: 55px;
+}
+
+#buttons {
+    display: flex;
+    gap: 40px;
+    margin-top: 50px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn {
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-size: 35px;
+}
