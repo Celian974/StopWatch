@@ -35,6 +35,10 @@ resetBtn.addEventListener('click', function () {
     document.getElementById('count').innerHTML = "00";
 });
 
+function format(val) {
+    return val.toString().padStart(2, '0');
+}
+
 function stopWatch() {
     if (timer) {
         count++;
@@ -71,10 +75,10 @@ function stopWatch() {
         countString = "0" + countString;
     }
 
-    document.getElementById('hr').innerHTML = hrString;
-    document.getElementById('min').innerHTML = minString;
-    document.getElementById('sec').innerHTML = secString;
-    document.getElementById('count').innerHTML = countString;
+    document.getElementById('hr').innerHTML = format(hrString);
+    document.getElementById('min').innerHTML = format(minString);
+    document.getElementById('sec').innerHTML = format(secString);
+    document.getElementById('count').innerHTML = format(countString);
 
     timeoutID = setTimeout(stopWatch, 10);
 
