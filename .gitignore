@@ -1,6 +1,10 @@
-*.icns
-*.png
-dist
+favicon.icns
+.icon-set
+linux-unpacked
+builder-debug.yml
+builder-effective-config.yaml
+latest-linux.yml
+*.AppImage
 package.json
 package-lock.json
 node_modules
