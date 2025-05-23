@@ -35,10 +35,6 @@ resetBtn.addEventListener('click', function () {
     document.getElementById('count').innerHTML = "00";
 });
 
-// function format(val) {
-//     return val.toString().padStart(2, '0');
-// }
-
 function stopWatch() {
     if (timer) {
         count++;
