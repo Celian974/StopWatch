@@ -34,3 +34,18 @@ sudo dpkg -i dist/stopwatch_1.0.0_amd64.deb
 ```
 
 - The app will then appear among your applications with a "SW" desktop icon (for StopWatch).
+
+---
+## 🛠️ Technologies used
+
+- Electron
+- HTML/CSS/JavaScript
+- Canva (for icons design)
+---
+## 🧑‍💻 Author
+
+Celian SIAMPIRAVE
+
+---
+## 📝 License
+This project is licensed under the MIT License.
