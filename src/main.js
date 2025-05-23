@@ -90,4 +90,3 @@ document.addEventListener('mousedown', function (e) {
         e.stopPropagation();
     }
 }, true);
-
