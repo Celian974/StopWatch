@@ -1,3 +1,9 @@
+body {
+    background-image: radial-gradient( circle farthest-corner at -5.6% -6.8%,  rgba(103,49,145,1) 37.3%, rgba(50,0,129,1) 73.5% );
+    color: white;
+    pointer-events: none;
+}
+
 .container {
     position: absolute;
     top: 50%;
@@ -5,11 +11,12 @@
     transform: translate(-50%, -50%);
 }
 
-#title h1 {
-    text-align: center;
+#title {
+    text-align: left;
     font-family: "Special Gothic Expanded One", sans-serif;
-    font-size: 75px;
-    margin-top: 80px;
+    font-size: 30px;
+    margin-top: -30px;
+    margin-left: 10px;
 }
 
 #time {
@@ -26,6 +33,7 @@
 #time span {
     display: inline-block;
     width: 4vw;
+    user-select: none;
 }
 
 #sec {
@@ -44,6 +52,7 @@
 }
 
 #buttons {
+    pointer-events: auto;
     display: flex;
     gap: 40px;
     margin-top: 50px;
@@ -55,4 +64,19 @@
 .btn {
     font-family: "Special Gothic Expanded One", sans-serif;
     font-size: 35px;
+    color: white;
+    background: none;
+    border: none;
+}
+
+.btn:active {
+    transform: scale(0.95);
+}
+
+#start:focus {
+    color: rgb(86, 214, 86);
+}
+
+#stop:focus {
+    color: rgb(223, 40, 37);
 }
