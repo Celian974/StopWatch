@@ -83,3 +83,11 @@ function stopWatch() {
     timeoutID = setTimeout(stopWatch, 10);
 
 };
+
+document.addEventListener('mousedown', function (e) {
+    if (!e.target.closest('#buttons')) {
+        e.preventDefault();
+        e.stopPropagation();
+    }
+}, true);
+
