@@ -17,22 +17,33 @@ A simple Stopwatch desktop application built with **Electron**, **HTML**, **CSS*
 
 ## 🚀 Getting Started
 
-### 📁 Clone the repository
+### Option 1: Build from source
+
+#### 📁 Clone the repository
 
 ```bash
 git clone https://github.com/Celian974/StopWatch.git
 ```
-### 📁 Navigate to the StopWatch directory
+#### 📁 Navigate to the StopWatch directory
 
 ```bash
 cd StopWatch
 ```
-### 📥 Install the App (.deb)
+#### 📥 Install the App (.deb)
 
 ```bash
 sudo dpkg -i dist/stopwatch_1.0.0_amd64.deb
 ```
 
+- The app will then appear among your applications with a "SW" desktop icon (for StopWatch).
+
+### Option 2: Download from Releases
+
+You can download the `.deb` package directly from the `Releases` page and install it with :
+
+```bash
+sudo dpkg -i stopwatch_1.0.0_amd64.deb
+```
 - The app will then appear among your applications with a "SW" desktop icon (for StopWatch).
 
 ---
