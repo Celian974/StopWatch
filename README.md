@@ -29,7 +29,7 @@ git clone https://github.com/Celian974/StopWatch.git
 ```bash
 cd StopWatch
 ```
-#### 📥 Install the App (.deb)
+#### 📥 Install the App (`.deb`)
 
 ```bash
 sudo dpkg -i dist/stopwatch_1.0.0_amd64.deb
